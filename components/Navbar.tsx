@@ -4,19 +4,18 @@ import Link from "next/link";
 import * as React from "react";
 
 const HamburgerMenu = () => (
-  <div className="cursor-pointer md:hidden left-1 top-1 p-1 font-lg text-white text-xl z-10">
-    <FontAwesomeIcon icon={faBars} />
+  <div className="lg:hidden text-right mr-10 text-white text-[3rem]">
+    <FontAwesomeIcon className="cursor-pointer" icon={faBars} />
   </div>
 );
 
 const Navbar = () => (
-  <div className="absolute top-0 left-0 h-10 w-screen">
+  <div className="absolute top-0 left-0 h-20 w-[100%] z-10 bg-black opacity-20">
     <HamburgerMenu />
-    <nav className="hidden md:flex">
+    <nav className="hidden lg:flex">
       <Link href="/">
         <a>Home</a>
       </Link>
-      {""}
       <Link href="/Bio">
         <a>Bio</a>
       </Link>
