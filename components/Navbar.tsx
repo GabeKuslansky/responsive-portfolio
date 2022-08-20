@@ -10,7 +10,7 @@ const HamburgerMenu = () => (
 );
 
 const Navbar = () => (
-  <div className="absolute top-0 left-0 bg- h-10 w-screen">
+  <div className="absolute top-0 left-0 h-10 w-screen">
     <HamburgerMenu />
     <nav className="hidden md:flex">
       <Link href="/">

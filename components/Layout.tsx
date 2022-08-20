@@ -9,8 +9,6 @@ type Props = {
   title?: string;
 };
 
-const isMobile = true;
-
 const Layout = ({ children, title = "This is the default title" }: Props) => (
   <div className="layout">
     <Head>
