@@ -3,3 +3,7 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+.landing-container {
+    /* background-image: url("/img/mobile/wedding-front.jpg"); */
+}
