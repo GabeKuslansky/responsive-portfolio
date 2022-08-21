@@ -1,16 +1,9 @@
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import * as React from "react";
-
-const HamburgerMenu = () => (
-  <div className="lg:hidden text-right mr-10 text-white text-[3rem]">
-    <FontAwesomeIcon className="cursor-pointer" icon={faBars} />
-  </div>
-);
+import HamburgerMenu from "./HamburgerMenu/HamburgerMenu";
 
 const Navbar = () => (
-  <div className="absolute top-0 left-0 h-20 w-[100%] z-10 bg-black opacity-20">
+  <div className="absolute top-0 left-0 h-20 w-[100%] z-10 bg-[rgba(0,0,0,0.2)]">
     <HamburgerMenu />
     <nav className="hidden lg:flex">
       <Link href="/">
