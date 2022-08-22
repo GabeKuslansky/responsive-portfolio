@@ -28,8 +28,15 @@ const Navbar = () => {
               <a>Contact</a>
             </Link>
           </div>
-          <div className="lg:hidden p-3">
-            <HamburgerMenu openChange={(isOpen) => setIsOpen(isOpen)} />
+          <div className="lg:hidden p-3 ml-auto mr-4">
+            <HamburgerMenu
+              openChange={(isOpen) => {
+                isOpen
+                  ? document.body.classList.add("overflow-hidden")
+                  : document.body.classList.remove("overflow-hidden");
+                setIsOpen(isOpen);
+              }}
+            />
           </div>
         </nav>
       </div>
