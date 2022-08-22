@@ -3,3 +3,8 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+@font-face {
+    font-family: letsjazz;
+    src: url("../public/fonts/Let\'sJazz.otf");
+}

@@ -3,20 +3,24 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import HamburgerLinks from "./HamburgerLinks";
 
-const HamburgerMenu = () => {
+type Props = {
+  openChange: (arg0: boolean) => void;
+};
+
+const HamburgerMenu = ({ openChange }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <div className="lg:hidden text-right mr-8 text-white text-[3rem] z-20 relative">
+      <div className="text-white text-5xl z-20">
         <FontAwesomeIcon
           onClick={(e) => {
+            openChange(!isOpen);
             setIsOpen(!isOpen);
           }}
           className="cursor-pointer"
           icon={isOpen ? faX : faBars}
         />
       </div>
-      {isOpen && HamburgerLinks()}
     </div>
   );
 };
