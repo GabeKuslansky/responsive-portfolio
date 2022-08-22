@@ -7,14 +7,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div>
-      <div className="absolute top-0 left-0 h-20 w-[100%] z-10 bg-[rgba(0,0,0,0.2)]">
+      <div className="absolute top-0 left-0 h-15 w-[100%] z-10 bg-[rgba(0,0,0,0.2)]">
         <nav className="flex">
           <div className="z-20 p-5 text-2xl text-white">
             <Link href="/">
               <a>Gabe Kuslansky</a>
             </Link>
           </div>
-          <div className="hidden lg:flex m-auto text-center space-x-10 text-2xl text-white">
+          <div className="justify-center hidden lg:flex m-auto text-center space-x-10 text-2xl text-white">
             <Link href="/gigs">
               <a>Gigs</a>
             </Link>
