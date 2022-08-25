@@ -6,7 +6,7 @@ import StyledLink from "../components/StyledLink";
 const IndexPage = () => (
   <Layout title="Gabe Kuslansky">
     <div
-      className="w-screen h-[103vh] lg:bg-fixed bg-darken-mobile bg-[right_-16rem_bottom_1rem] lg:bg-center bg-cover bg-no-repeat lg:bg-darken-desktop"
+      className="w-screen h-[103vh] lg:bg-fixed bg-darken-mobile bg-[right_-16rem_bottom_0.3rem] lg:bg-center bg-cover bg-repeat-x lg:bg-darken-desktop"
       style={{ backgroundSize: "fit" }}
     >
       <div className="flex-col box-border text-center font-letsjazz text-white m-auto leading-[3rem] pt-[6rem] lg:pt-[16rem]">
