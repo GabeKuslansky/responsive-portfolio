@@ -8,3 +8,7 @@
     font-family: letsjazz;
     src: url("../public/fonts/Let\'sJazz.otf");
 }
+
+body {
+    background-color: #FDFBED;
+}

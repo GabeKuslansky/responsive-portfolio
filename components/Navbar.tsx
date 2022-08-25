@@ -24,8 +24,8 @@ const Navbar = () => {
             <Link href="/media">
               <a>Media</a>
             </Link>
-            <Link href="/contact">
-              <a>Contact</a>
+            <Link href="/booking">
+              <a>Booking</a>
             </Link>
           </div>
           <div className="lg:hidden p-3 ml-auto mr-4">
