@@ -28,7 +28,7 @@ const Bio = () => (
       </p>
       <br />
       <p>
-        Gabe works as a full-time Software Engineer for Booz Allen Hamilton. and developed this website himself
+        Gabe also works as a full-time Software Engineer and developed this website himself
         from scratch.
       </p>
     </div>
