@@ -7,28 +7,28 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div>
-      <div className="absolute top-0 left-0 h-15 w-[100%] z-10 bg-[rgba(0,0,0,0.2)]">
-        <nav className="flex">
-          <div className="z-20 p-5 text-2xl text-white">
-            <Link href="/">
-              <a>Gabe Kuslansky</a>
-            </Link>
+      <div className={`absolute top-0 left-0 h-[3.5rem] w-[100%] z-10`}>
+        <nav className="flex leading-[3.5rem]">
+          <div className={`z-20 pl-2 text-md font-letsjazz text-white pt-[4rem]`}>
           </div>
-          <div className="justify-center hidden lg:flex m-auto text-center space-x-10 text-2xl text-white">
+          <div className="justify-center hidden lg:flex m-auto text-right space-x-8 text-[1.3rem] text-white">
+            <Link href="/">
+              <a>home</a>
+            </Link>
             <Link href="/gigs">
-              <a>Gigs</a>
+              <a>gigs</a>
             </Link>
             <Link href="/bio">
-              <a>Bio</a>
+              <a>bio</a>
             </Link>
             <Link href="/media">
-              <a>Media</a>
+              <a>media</a>
             </Link>
             <Link href="/booking">
-              <a>Booking</a>
+              <a>booking</a>
             </Link>
           </div>
-          <div className="lg:hidden p-3 ml-auto mr-4">
+          <div className={`lg:hidden ml-auto mr-4`}>
             <HamburgerMenu
               openChange={(isOpen) => {
                 isOpen
