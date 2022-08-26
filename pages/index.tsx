@@ -9,7 +9,7 @@ const IndexPage = () => (
       className="w-screen h-[103vh] lg:bg-fixed bg-darken-mobile bg-[right_-16rem_bottom_0.3rem] lg:bg-center bg-cover bg-repeat-x lg:bg-darken-desktop"
       style={{ backgroundSize: "fit" }}
     >
-      <div className="flex-col box-border text-center font-letsjazz text-white m-auto leading-[3rem] pt-[9rem]">
+      <div className="flex-col box-border text-center font-letsjazz text-white m-auto leading-[3rem] pt-[8.5rem]">
         <span className="text-3xl lg:text-6xl tracking-[0.2em]">Gabe Kuslansky</span>
         <br />
         <span className="text-sm lg:text-xl tracking-[0.05em] lg:leading-[3em]">Jazz Pianist and Composer</span>
