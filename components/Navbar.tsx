@@ -9,8 +9,7 @@ const Navbar = () => {
     <div>
       <div className={`absolute top-0 left-0 h-[3.5rem] w-[100%] z-10`}>
         <nav className="flex leading-[3.5rem]">
-          <div className={`z-20 pl-2 text-md font-letsjazz text-white pt-[4rem]`}>
-          </div>
+          <div className={`z-20 pl-2 text-md font-letsjazz text-white pt-[4rem]`}></div>
           <div className="justify-center hidden lg:flex m-auto text-right space-x-8 text-[1.3rem] text-white">
             <Link href="/">
               <a>home</a>

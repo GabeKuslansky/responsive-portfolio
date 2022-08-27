@@ -24,7 +24,7 @@ const Bio = () => (
       <br />
       <p>
         Inspirations for his voice on the piano are Chet Baker, Russ Freeman (Pianist for Chet Baker), Bill Evans, John
-        Campbell (Pianist for Mel Torme), Laurence Hobgood (Pianist for Kurt Elling), Red Garland, Oscar Peterson, Chick
+        Campbell (Pianist for Mel Torme), Scott Joplin, Laurence Hobgood (Pianist for Kurt Elling), Red Garland, Oscar Peterson, Chick
         Corea, Bud Powell and McCoy Tyner. He appreciates every style of music, and uniquely blends his delicate and
         sophisticated voice onto the piano for every song. Gabe has worked collaboratively with wedding planners,
         chamber ensembles, big bands, singers, and session musicians in a studio.
