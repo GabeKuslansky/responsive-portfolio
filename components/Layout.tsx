@@ -9,7 +9,7 @@ type Props = {
   title?: string;
 };
 
-const Layout = ({ children, title = "This is the default title" }: Props) => (
+const Layout = ({ children, title = "Gabe Kuslansky - New York City Pianist" }: Props) => (
   <div className="w-[100%] overflow-hidden">
     <Head>
       <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
@@ -20,7 +20,9 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <header><Navbar /></header>
+    <header>
+      <Navbar />
+    </header>
     <div>{children}</div>
     <footer>
       <hr />

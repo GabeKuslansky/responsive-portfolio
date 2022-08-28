@@ -1,13 +1,14 @@
 import StyledLink from "./StyledLink";
 
 const Bio = () => (
-  <div className="w-screen">
-    <div className="90% text-md m-auto pt-[5rem] break-words tracking-wide p-10">
+  <div className="w-[40%] m-auto">
+    <div className="90% text-md m-auto break-words tracking-wide p-10">
       <p>
         Gabe Kuslansky is a multi-genre pianist in NYC. He performs regularly as a solo pianist at famed Broadway
-        restaurant, Chez Josephine, with vocalists and jazz trios. He has also made appearences at Prohibition, Hutaoli
-        and Bettola. Check out his <StyledLink href="/gigs">upcoming gigs</StyledLink> to see where to catch him next
-        and visit his <StyledLink href="/booking">booking page</StyledLink> to reserve him for private events.
+        restaurant, <StyledLink href="https://www.chezjosephine.com/entertainment.html">Chez Josephine</StyledLink>,
+        with vocalists and jazz trios. He has also made appearences at Prohibition, Hutaoli and Bettola. Check out his{" "}
+        <StyledLink href="/gigs">upcoming gigs</StyledLink> to see where to catch him next and visit his{" "}
+        <StyledLink href="/booking">booking page</StyledLink> to reserve him for private events.
       </p>
       <br />
       <p>
@@ -24,10 +25,10 @@ const Bio = () => (
       <br />
       <p>
         Inspirations for his voice on the piano are Chet Baker, Russ Freeman (Pianist for Chet Baker), Bill Evans, John
-        Campbell (Pianist for Mel Torme), Scott Joplin, Laurence Hobgood (Pianist for Kurt Elling), Red Garland, Oscar Peterson, Chick
-        Corea, Bud Powell and McCoy Tyner. He appreciates every style of music, and uniquely blends his delicate and
-        sophisticated voice onto the piano for every song. Gabe has worked collaboratively with wedding planners,
-        chamber ensembles, big bands, singers, and session musicians in a studio.
+        Campbell (Pianist for Mel Torme), Scott Joplin, Laurence Hobgood (Pianist for Kurt Elling), Red Garland, Oscar
+        Peterson, Chick Corea, Bud Powell and McCoy Tyner. He appreciates every style of music, and uniquely blends his
+        delicate and sophisticated voice onto the piano for every song. Gabe has worked collaboratively with wedding
+        planners, chamber ensembles, big bands, singers, and session musicians in a studio.
       </p>
       <br />
       <p>Gabe also works as a full-time Software Engineer and developed this website himself from scratch.</p>
