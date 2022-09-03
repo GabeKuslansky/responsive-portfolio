@@ -1,5 +1,6 @@
 import Bio from "../components/Bio";
 import Layout from "../components/Layout";
+import YoutubeEmbed from "../components/YoutubeEmbed";
 
 const IndexPage = () => (
   <Layout title="Gabe Kuslansky - NYC Pianist">
@@ -11,6 +12,7 @@ const IndexPage = () => (
         <span className="text-3xl lg:text-6xl tracking-[0.2em]">Gabe Kuslansky</span>
         <br />
         <span className="text-sm lg:text-xl tracking-[0.05em] lg:leading-[3em]">Jazz Pianist and Composer</span>
+
         {/* <span className="text-sm lg:text-xl">Next gig 8/16 6-10pm at Chez Josephine</span> */}
       </div>
     </div>

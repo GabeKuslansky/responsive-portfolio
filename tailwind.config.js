@@ -14,6 +14,9 @@ module.exports = {
       },
       fontFamily: {
         letsjazz: "letsjazz"
+      },
+      color: {
+        main: '#FDFBED'
       }
     },
   },
