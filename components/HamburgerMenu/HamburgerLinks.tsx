@@ -14,14 +14,14 @@ const HamburgerLinks = () => {
             <span>bio</span>
           </a>
         </Link>
-        <Link href="/gigs">
-          <a>
-            <span>gigs</span>
-          </a>
-        </Link>
         <Link href="/media">
           <a>
             <span>media</span>
+          </a>
+        </Link>
+        <Link href="/gigs">
+          <a>
+            <span>gigs</span>
           </a>
         </Link>
         <Link href="/contact">

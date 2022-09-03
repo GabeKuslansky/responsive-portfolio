@@ -1,10 +1,18 @@
 import Link from "next/link";
 import * as React from "react";
+import { useEffect } from "react";
 import HamburgerLinks from "./HamburgerMenu/HamburgerLinks";
 import HamburgerMenu from "./HamburgerMenu/HamburgerMenu";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+
+  useEffect(() => {
+    if (!isOpen) {
+      document.body.style.overflowY = "visible";
+    }
+  });
+
   return (
     <div>
       <div className={`absolute top-0 left-0 h-[3.5rem] w-[100%] z-10`}>
@@ -30,9 +38,9 @@ const Navbar = () => {
           <div className={`lg:hidden ml-auto mr-4`}>
             <HamburgerMenu
               openChange={(isOpen) => {
-                isOpen
-                  ? document.body.classList.add("overflow-hidden")
-                  : document.body.classList.remove("overflow-hidden");
+                if (isOpen) {
+                  document.body.style.overflowY = "hidden";
+                }
                 setIsOpen(isOpen);
               }}
             />
