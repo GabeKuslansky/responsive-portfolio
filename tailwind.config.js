@@ -1,13 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: {
-    content: [],
-    // These options are passed through directly to PurgeCSS
-    options: {
-      whitelistPatterns: [/^var1-/, /^w-/, /^hover:/],
-      whitelistPatternsChildren: [/^var2-/, /^var3-/],
-    },
-  },
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
