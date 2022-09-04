@@ -2,7 +2,7 @@ import StyledLink from "./StyledLink";
 
 const Bio = () => (
   <div className="bg-main w-screen">
-    <div className="w-screen lg:w-[40%] m-auto">
+    <div className="lg:w-[40%] w-screen m-auto">
       <div className="90% text-md m-auto break-words tracking-wide p-10">
         <p>
           Gabe Kuslansky is a multi-genre pianist in NYC. He performs regularly as a solo pianist at famed Broadway
