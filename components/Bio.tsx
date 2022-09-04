@@ -1,6 +1,7 @@
 import StyledLink from "./StyledLink";
 
 const Bio = () => (
+  <div className="bg-main w-screen">
   <div className="w-screen lg:w-[40%] m-auto">
     <div className="90% text-md m-auto break-words tracking-wide p-10">
       <p>
@@ -33,6 +34,7 @@ const Bio = () => (
       <br />
       <p>Gabe also works as a full-time Software Engineer and developed this website himself from scratch.</p>
     </div>
+  </div>
   </div>
 );
 
