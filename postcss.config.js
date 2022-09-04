@@ -1,3 +1,3 @@
 module.exports = {
-  plugins: ["tailwindcss", process.env.NODE_ENV === "production" ? "cssnano" : undefined, "postcss-preset-env"],
+  plugins: ["tailwindcss", "autoprefixer", process.env.NODE_ENV === "production" ? "cssnano" : undefined, "postcss-preset-env"],
 };

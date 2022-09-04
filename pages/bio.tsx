@@ -5,7 +5,7 @@ const BioPage = () => (
   <Layout title="Bio — Gabe Kuslansky - NYC Pianist">
     <div>
       <div
-        className="w-screen h-[61vh] bg-cover lg:bg-fixed bg-bio-mobile lg:bg-[right_0rem_bottom_-1.3rem] bg-no-repeat lg:bg-repeat-y lg:bg-bio-desktop"
+        className="w-screen h-screen bg-cover lg:bg-fixed bg-bio-mobile lg:bg-[right_0rem_bottom_-1.3rem] bg-no-repeat lg:bg-repeat-y lg:bg-bio-desktop"
         style={{ backgroundSize: "fit" }}
       ></div>
     </div>
