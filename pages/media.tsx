@@ -18,7 +18,8 @@ const MediaPage = () => {
 
   return (
     <Layout title="Media — Gabe Kuslansky">
-      <div className="h-[120vh]">
+      <div className="h-[100vh]">
+        
         <div className="block w-screen h-screen min-w-full min-h-full overflow-hidden bg-black pointer-events-none select-none scale-[1.25]">
           {/* <div className="w-screen h-screen bg-black absolute top-0 opacity-50"></div> */}
           <iframe

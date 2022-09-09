@@ -3,7 +3,7 @@ import StyledLink from "./StyledLink";
 
 const Bio = () => (
   <Container>
-    <div className="90% text-md m-auto break-words tracking-wide">
+    <div className="text-md m-auto break-words tracking-wide">
       <p>
         Gabe Kuslansky is a multi-genre pianist in NYC. He performs regularly as a solo pianist at famed Broadway
         restaurant, <StyledLink href="https://www.chezjosephine.com/entertainment.html">Chez Josephine</StyledLink>,
