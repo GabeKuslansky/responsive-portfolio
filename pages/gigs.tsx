@@ -16,7 +16,7 @@ import HttpService from '../utils/httpService';
 // }
 
 const GigsPage = () => (
-  <Layout title="Bio — Gabe Kuslansky - NYC Pianist">
+  <Layout title="Gigs — Gabe Kuslansky - NYC Pianist">
     <div className="h-screen">
       <div
         className="w-screen h-[50vh] bg-cover lg:bg-fixed bg-gigs-mobile lg:bg-[right_0rem_bottom_0rem] bg-no-repeat lg:bg-repeat-y lg:bg-gigs-desktop"

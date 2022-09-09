@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 
 const TipPage = () => (
   <div className="m-auto">
-    <img src="/img/desktop/venmo.jpg" alt="" />
+    <img src="/img/desktop/venmo.webp" alt="" />
   </div>
 );
 

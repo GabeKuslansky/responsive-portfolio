@@ -24,9 +24,9 @@ const HamburgerLinks = () => {
             <span>gigs</span>
           </a>
         </Link>
-        <Link href="/contact">
+        <Link href="/booking">
           <a>
-            <span>contact</span>
+            <span>booking</span>
           </a>
         </Link>
       </div>
