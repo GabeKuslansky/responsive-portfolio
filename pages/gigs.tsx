@@ -19,7 +19,7 @@ const GigsPage = () => (
   <Layout title="Gigs — Gabe Kuslansky - NYC Pianist">
     <div className="h-screen">
       <div
-        className="w-screen h-[50vh] bg-cover lg:bg-fixed bg-gigs-mobile lg:bg-[right_0rem_bottom_0rem] bg-no-repeat lg:bg-repeat-y lg:bg-gigs-desktop"
+        className="w-screen h-[50vh] bg-cover lg:bg-fixed bg-gigs-mobile lg:bg-[right_0rem_bottom_-60vh] bg-no-repeat lg:bg-repeat-y lg:bg-gigs-desktop"
         style={{ backgroundSize: 'fit' }}
       >
         <div className="flex-col box-border text-center font-letsjazz text-white m-auto leading-[3rem] pt-[8.5rem]">
