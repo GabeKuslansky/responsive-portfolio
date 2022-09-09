@@ -1,25 +1,25 @@
-import { useRouter } from "next/router";
-import { useEffect } from "react";
-import Container from "../components/Container";
-import Layout from "../components/Layout";
-import YoutubeEmbed from "../components/YoutubeEmbed";
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
+import Container from '../components/Container';
+import Layout from '../components/Layout';
+import YoutubeEmbed from '../components/YoutubeEmbed';
 
 const MediaPage = () => {
   const router = useRouter();
   useEffect(() => {
-    if (router.pathname === "/media") {
-      document.body.style.backgroundColor = "#000";
+    if (router.pathname === '/media') {
+      document.body.style.backgroundColor = '#000';
     }
 
     return () => {
-      document.body.style.backgroundColor = "#fff";
+      document.body.style.backgroundColor = '#fff';
     };
   });
 
   return (
     <Layout title="Media — Gabe Kuslansky">
       <div className="h-[120vh]">
-        <div className="block w-screen h-screen min-w-full min-h-full absolute top-0 left-0 overflow-hidden bg-black pointer-events-none select-none scale-[1.12]">
+        <div className="block w-screen h-screen min-w-full min-h-full overflow-hidden bg-black pointer-events-none select-none scale-[1.25]">
           {/* <div className="w-screen h-screen bg-black absolute top-0 opacity-50"></div> */}
           <iframe
             className="w-screen h-screen"
