@@ -8,6 +8,7 @@ import useMobileDetect from 'use-mobile-detect-hook';
 const MediaPage = () => {
   const detectMobile = useMobileDetect();
   const router = useRouter();
+  const youtubeIds: string[] = ['1BGAuazIHWE', 'cqBiocs8Wvc', 'ArzFeE2v0bg'];
   useEffect(() => {
     if (router.pathname === '/media') {
       document.body.style.backgroundColor = '#000';
@@ -22,7 +23,7 @@ const MediaPage = () => {
     <Layout title="Media — Gabe Kuslansky">
       {!detectMobile.isMobile() && (
         <div className="h-[100vh]">
-          <div className="block w-screen h-screen min-w-full min-h-full overflow-hidden bg-black pointer-events-none select-none scale-[1.25]">
+          <div className="block w-screen h-screen min-w-full min-h-full overflow-hidden bg-black pointer-events-none select-none scale-[1.25] z-[-1]">
             {/* <div className="w-screen h-screen bg-black absolute top-0 opacity-50"></div> */}
             <iframe
               className="w-screen h-screen"
@@ -39,10 +40,19 @@ const MediaPage = () => {
       )}
       <Container>
         <h1 className="text-center font-work text-3xl mt-10 mb-10">Videos</h1>
-        <div className="lg:flex justify-center">
-          <YoutubeEmbed embedId="1BGAuazIHWE" />
-          <YoutubeEmbed embedId="cqBiocs8Wvc" />
-          <YoutubeEmbed embedId="ArzFeE2v0bg" />
+        <div className="mb-20 w-screen justify-center flex flex-wrap">
+          {youtubeIds.map((ytId, idx) => {
+            return (
+              idx % 2 === 0 && (
+                <div className="">
+                  <YoutubeEmbed embedId={ytId} />
+                  {youtubeIds[idx + 1] !== undefined && (
+                    <YoutubeEmbed embedId={youtubeIds[idx + 1]} />
+                  )}
+                </div>
+              )
+            );
+          })}
         </div>
       </Container>
     </Layout>

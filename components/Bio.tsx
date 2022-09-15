@@ -1,9 +1,11 @@
+import CenterContainer from "./CenterContainer";
 import Container from "./Container";
 import StyledLink from "./StyledLink";
 
 const Bio = () => (
   <Container>
-    <div className="text-md m-auto break-words tracking-wide">
+    <CenterContainer>
+    <div className="text-md break-words tracking-wide">
       <p>
         Gabe Kuslansky is a multi-genre pianist in NYC. He performs regularly as a solo pianist at famed Broadway
         restaurant, <StyledLink href="https://www.chezjosephine.com/entertainment.html">Chez Josephine</StyledLink>,
@@ -34,6 +36,7 @@ const Bio = () => (
       <br />
       <p>Gabe also works as a full-time Software Engineer and developed this website himself from scratch.</p>
     </div>
+    </CenterContainer>
   </Container>
 );
 

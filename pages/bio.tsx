@@ -11,7 +11,7 @@ const BioPage = () => (
       <span className="text-3xl lg:text-6xl tracking-[0.2em]">Bio</span>
     </div></div>
     </div>
-    <div className="h-[50vh]">
+    <div className="">
     <Bio />
     </div>
   </Layout>

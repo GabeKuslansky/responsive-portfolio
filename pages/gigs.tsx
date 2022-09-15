@@ -22,11 +22,11 @@ const GigsPage = () => (
         className="w-screen h-[50vh] bg-cover lg:bg-fixed bg-gigs-mobile lg:bg-[right_0rem_bottom_-60vh] bg-no-repeat lg:bg-repeat-y lg:bg-gigs-desktop"
         style={{ backgroundSize: 'fit' }}
       >
-        <div className="flex-col box-border text-center font-letsjazz text-white m-auto leading-[3rem] pt-[8.5rem]">
+        <div className="box-border text-center font-letsjazz text-white m-auto leading-[3rem] pt-[8.5rem]">
           <span className="text-3xl lg:text-6xl tracking-[0.2em]">Gigs</span>
         </div>
       </div>
-      <div className="h-[20vh] m-auto justify-center">
+      <div className="flex justify-center">
         <Gigs />
       </div>
     </div>

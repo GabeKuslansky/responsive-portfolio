@@ -4,7 +4,7 @@ type Props = {
 
 const YoutubeEmbed = ({ embedId }: Props) => {
   return (
-    <div className="video-responsive pb-5 lg:p-5">
+    <div className="pb-5 lg:p-5">
       <iframe
         width="560"
         height="315"
