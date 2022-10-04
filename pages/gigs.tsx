@@ -1,7 +1,5 @@
-import Bio from '../components/Bio';
 import Gigs from '../components/Gigs';
 import Layout from '../components/Layout';
-import HttpService from '../utils/httpService';
 
 // export async function getStaticProps() {
 //   const gigCalendarID =

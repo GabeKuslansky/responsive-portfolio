@@ -3,11 +3,10 @@ import { useEffect } from 'react';
 import Container from '../components/Container';
 import Layout from '../components/Layout';
 import YoutubeEmbed from '../components/YoutubeEmbed';
-import useMobileDetect from 'use-mobile-detect-hook';
-
+import useDeviceDetect from '../hooks/useDeviceDetect';
 const MediaPage = () => {
-  const detectMobile = useMobileDetect();
   const router = useRouter();
+  const { isMobile } = useDeviceDetect();
   const youtubeIds: string[] = ['1BGAuazIHWE', 'cqBiocs8Wvc', 'ArzFeE2v0bg'];
   useEffect(() => {
     if (router.pathname === '/media') {
@@ -21,7 +20,7 @@ const MediaPage = () => {
 
   return (
     <Layout title="Media — Gabe Kuslansky">
-      {!detectMobile.isMobile() && (
+      {!isMobile && (
         <div className="h-[100vh]">
           <div className="block w-screen h-screen min-w-full min-h-full overflow-hidden bg-black pointer-events-none select-none scale-[1.25] z-[-1]">
             {/* <div className="w-screen h-screen bg-black absolute top-0 opacity-50"></div> */}
