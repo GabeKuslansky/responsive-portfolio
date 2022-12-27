@@ -12,7 +12,7 @@ const Navbar = () => {
   const router = useRouter();
 
   useEffect(() => {
-    setShowBlackText(router.pathname == "/media");
+    // setShowBlackText(router.pathname == "/media");
     if (!isOpen) {
       document.body.style.overflowY = "visible";
     }
