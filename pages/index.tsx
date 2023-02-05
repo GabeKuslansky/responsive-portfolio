@@ -1,5 +1,6 @@
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
+import Media from '../components/Media';
 import YoutubeEmbed from '../components/YoutubeEmbed';
 
 const IndexPage = () => (
@@ -21,6 +22,7 @@ const IndexPage = () => (
       </div>
     </div>
 
+<Media/>
     <Bio/>
   </Layout>
 );

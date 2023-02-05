@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "go": "next",
     "dev": "next",
     "build": "next build",
     "start": "next start",
