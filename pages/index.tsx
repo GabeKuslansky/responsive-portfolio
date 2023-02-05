@@ -1,4 +1,6 @@
 import Bio from '../components/Bio';
+import Booking from '../components/Booking';
+import Gigs from '../components/Gigs';
 import Layout from '../components/Layout';
 import Media from '../components/Media';
 import YoutubeEmbed from '../components/YoutubeEmbed';
@@ -24,6 +26,8 @@ const IndexPage = () => (
 
 <Media/>
     <Bio/>
+    <Gigs/>
+    <Booking/>
   </Layout>
 );
 
