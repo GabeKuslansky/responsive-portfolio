@@ -8,7 +8,7 @@ import useDeviceDetect from '../hooks/useDeviceDetect';
 const MediaPage = () => {
   const router = useRouter();
   const { isMobile } = useDeviceDetect();
-  const embedVideoID='Sj_GLsVhMhY';
+  const embedVideoID='OzVOTUPnfTw';
 
   useEffect(() => {
     if (router.pathname === '/media') {
