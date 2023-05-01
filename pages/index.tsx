@@ -17,7 +17,7 @@ const IndexPage = () => (
         </span>
         <br />
         <span className="text-sm lg:text-xl tracking-[0.05em] lg:leading-[3em]">
-          Jazz Pianist and Composer
+          Pianist and Composer
         </span>
 
         {/* <span className="text-sm lg:text-xl">Next gig 8/16 6-10pm at Chez Josephine</span> */}
