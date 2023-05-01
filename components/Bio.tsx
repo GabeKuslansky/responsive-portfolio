@@ -33,8 +33,6 @@ const Bio = () => (
         delicate and sophisticated voice onto the piano for every song. Gabe has worked collaboratively with wedding
         planners, chamber ensembles, big bands, singers, and session musicians in a studio.
       </p>
-      <br />
-      <p>Gabe also works as a full-time Software Engineer and developed this website himself from scratch.</p>
     </div>
     </CenterContainer>
   </Container>
